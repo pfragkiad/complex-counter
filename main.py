@@ -24,6 +24,7 @@ print(count)
 # count_a4 = len(a4)
 # count = count_a1 * count_a2 * count_a3 * count_a4
 
+#One liner attempt
 print([[counter // math.prod(count_a[i+1:]) % count_a[i] for i in range(len(a))] for counter in range(count)])
 # for counter in range(count):
 #     i_ = list(counter // math.prod(count_a[i+1:]) % count_a[i] for i in range(len(a)))
